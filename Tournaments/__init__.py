@@ -1,0 +1,6 @@
+from tournaments.tournament import Tournament
+from tournaments.democracy import Democracy
+from tournaments.weighted_democracy import WeightedDemocracy
+from tournaments.limited_weighted_democracy import LimitedWeightedDemocracy
+from tournaments.highest_score import HighestScore
+from tournaments.limited_highest_score import LimitedHighestScore
