@@ -5,7 +5,7 @@ from predictors.predictor import Predictor
 class Tournament:
     def __init__(self, predictors, name='DefaultTournament'):
         assert isinstance(predictors, list)
-        assert isinstance(predictors[0], Predictor.Predictor)
+        assert isinstance(predictors[0], Predictor)
         self._predictors = predictors
         self._name = name
         self._right_guesses = 0

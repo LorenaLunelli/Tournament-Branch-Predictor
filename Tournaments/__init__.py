@@ -1,3 +1,4 @@
+
 from tournaments.tournament import Tournament
 from tournaments.democracy import Democracy
 from tournaments.weighted_democracy import WeightedDemocracy
